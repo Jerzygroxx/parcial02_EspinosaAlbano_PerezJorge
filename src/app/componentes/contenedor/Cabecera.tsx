@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 export const Cabecera = () => {
   return (
     <>
@@ -23,24 +25,24 @@ export const Cabecera = () => {
           <div className="collapse navbar-collapse" id="navbarColor01">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/Inicio">
+                <NavLink className="nav-link active" aria-current="page" to="/Inicio">
                   inicio
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/Marcas">
+                <NavLink className="nav-link" to="/Marcas">
                   Marcas
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/TipoVh">
+                <NavLink className="nav-link" to="/TipoVh">
                   Tipo de Vehiculos
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="Informacion">
+                <NavLink className="nav-link" to="Informacion">
                   Informacion
-                </a>
+                </NavLink>
               </li>
             </ul>
             <form className="d-flex" role="search">

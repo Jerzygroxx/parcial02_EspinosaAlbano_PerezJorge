@@ -7,10 +7,13 @@ import { Informacion } from "../../menu/informacion";
 export const Ruteo = () => {
   return (
     <Routes>
-      <Route path="/Inicio" element={<Inicio/>} />
-      <Route path="/Marcas" element={<Marcas/>}/>
-      <Route path="/TipoVh" element={<Tipo_de_vehiculos/>}/>
-      <Route path="/Informacion" element={<Informacion/>}/>
+      <Route path="/inic" element={<Inicio />} />
+
+      <Route path="/marc" element={<Marcas />} />
+      
+      <Route path="/tipoVh" element={<Tipo_de_vehiculos />} />
+      
+      <Route path="/info" element={<Informacion />} />
     </Routes>
   );
 };
