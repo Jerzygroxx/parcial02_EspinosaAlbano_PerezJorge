@@ -25,7 +25,7 @@ export const Cabecera = () => {
           <div className="collapse navbar-collapse" id="navbarColor01">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <NavLink className="nav-link active" aria-current="page" to="/Inicio">
+                <NavLink className="nav-link active" aria-current="page" to="/inic">
                   inicio
                 </NavLink>
               </li>
